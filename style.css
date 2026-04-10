@@ -10,7 +10,6 @@ body{
     padding: 30px;
 }
 .container{
-    font-family: "Poppins", sans-serif;
     /* height: 100vh; */
     background: #fff;
     width: 90%;
@@ -92,9 +91,10 @@ p{
 }
 
 .main h1 {
-  font-size: 45px;
-  font-family: sans-serif;
-  letter-spacing: -1px; 
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 55px;
+  letter-spacing:1px; 
   margin-bottom: 15px;
 
 }
@@ -108,11 +108,11 @@ p{
   background: black;
   color: white;
   font-size: 12px;
-  padding: 8px 10px;
+  padding: 13px 10px;
   border-radius: 25px;
   border: none;
   cursor: pointer;
-  margin-bottom:6px;
+  text-decoration: none;
 }
 
 .btn-main i{
@@ -125,6 +125,7 @@ p{
 }
 
 .main small {
+  margin-top:8px;
   display: block;
   color: #000000;
   font-size: 12px;
@@ -143,7 +144,7 @@ p{
 .heroLogo ul{
     list-style: none;
     display: flex;
-     gap:80px;
+     gap:75px;
       color: #bbb;
 
 }
