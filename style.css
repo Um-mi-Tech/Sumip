@@ -144,8 +144,8 @@ p{
 .heroLogo ul{
     list-style: none;
     display: flex;
-     gap:75px;
-      color: #bbb;
+    gap:75px;
+    color: #bbb;
 
 }
 
@@ -162,7 +162,7 @@ p{
   width: 180px;
   height: 150px;
   object-fit: cover;
-  border-radius: 15px;
+  border-radius:5px;
   bottom: 0;
 
 
