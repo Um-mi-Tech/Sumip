@@ -144,7 +144,7 @@ p{
 .heroLogo ul{
     list-style: none;
     display: flex;
-    gap:75px;
+    gap:45px;
     color: #bbb;
 
 }
@@ -159,8 +159,8 @@ p{
 } 
 
 .heroImg img{
-  width: 180px;
-  height: 150px;
+  width: 100%;
+  height: auto;
   object-fit: cover;
   border-radius:5px;
   bottom: 0;
@@ -203,4 +203,20 @@ p{
   height: 130px;
   transform: translateX(-20px);
   transform: translateY(40px);
+}
+
+@media (max-width: 480px) {
+
+  .main h1 {
+    font-size: 22px;
+  }
+
+  .btn-main {
+    font-size: 11px;
+    padding: 10px;
+  }
+
+  .heroImg {
+    grid-template-columns: 1fr; /* 1 image per row */
+  }
 }
