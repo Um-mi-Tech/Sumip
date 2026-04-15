@@ -81,7 +81,7 @@ p{
   background:rgba(0, 0, 0, 0.031);
   border-radius: 20px;
   font-size: 12px;
-  margin-bottom: 25px;
+  margin-bottom: 24px;
 }
 
 .badge i{
@@ -92,23 +92,27 @@ p{
 
 .main h1 {
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-size: 55px;
+  font-weight: 200;
+  font-size: 50px;
   letter-spacing:1px; 
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 
 }
 
 .main p {
-  color:#000000 ;
-  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  color:#000000bd ;
+  font-size: 12px;
   margin-bottom: 20px;
 }
 .btn-main {
+  align-items: center;
+  font-family: "Poppins", sans-serif;
   background: black;
   color: white;
   font-size: 12px;
-  padding: 13px 10px;
+  padding: 10px 8px;
+  margin-left: 15px; 
   border-radius: 25px;
   border: none;
   cursor: pointer;
@@ -116,16 +120,15 @@ p{
 }
 
 .btn-main i{
-     margin-left: 10px;
+     margin-left: 5px;
     background: #222;
     padding: 5px 8px;
     border-radius: 50%;
     font-size: 10px;
-    padding-left: 10px;
 }
 
 .main small {
-  margin-top:8px;
+  margin-top:12px;
   display: block;
   color: #000000;
   font-size: 12px;
